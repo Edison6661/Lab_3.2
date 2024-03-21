@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Combined CSS Example</title>
+<style>
+  body {
+    color: blue;
+    background-color: lightgrey;
+  }
+
+  h1 {
+    color: green;
+    background-color: black;
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: red;
+    text-decoration-thickness: auto;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px red;
+  }
+
+  h2 {
+    color: white;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    letter-spacing: -3px;
+    word-spacing: -5px;
+  }
+
+  h3 {
+    color: green;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 25%;
+  }
+
+  div {
+    text-align: justify;
+  }
+
+  p.a {
+    text-align-last: right;
+  }
+
+  p.b {
+    text-align-last: center;
+  }
+
+  p.c {
+    text-align-last: justify;
+  }
+
+  p {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration-line: overline underline;
+    text-decoration-color: purple;
+    text-indent: 50px;
+    line-height: 1.8;
+    white-space: nowrap;
+  }
+
+  img.a {
+    vertical-align: baseline;
+  }
+
+  img.b {
+    vertical-align: text-top;
+  }
+
+  img.c {
+    vertical-align: text-bottom;
+  }
+
+  img.d {
+    vertical-align: sub;
+  }
+
+  img.e {
+    vertical-align: super;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p.uppercase {
+    text-transform: uppercase;
+  }
+
+  p.lowercase {
+    text-transform: lowercase;
+  }
+
+  p.capitalize {
+    text-transform: capitalize;
+  }
+
+  h1, h2, h3, p {
+    text-decoration: underline red double 5px;
+  }
+
+  p.small {
+    line-height: 0.8;
+  }
+
+  p.big {
+    line-height: 1.8;
+  }
+</style>
+</head>
+<body>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
+  <h3>Heading 3</h3>
+  <div>
+    <p class="a">Paragraph A</p>
+    <p class="b">Paragraph B</p>
+    <p class="c">Paragraph C</p>
+  </div>
+  <p>Normal paragraph</p>
+  <img src="example.jpg" alt="Example Image" class="a">
+  <img src="example.jpg" alt="Example Image" class="b">
+  <img src="example.jpg" alt="Example Image" class="c">
+  <img src="example.jpg" alt="Example Image" class="d">
+  <img src="example.jpg" alt="Example Image" class="e">
+  <a href="#">Link</a>
+  <p class="uppercase">uppercase text</p>
+  <p class="lowercase">LOWERCASE TEXT</p>
+  <p class="capitalize">capitalized text</p>
+  <p class="small">Small text</p>
+  <p class="big">Big text</p>
+</body>
+</html>
