@@ -14,9 +14,7 @@
     color: green;
     background-color: black;
     text-align: center;
-    text-decoration-line: overline;
-    text-decoration-color: red;
-    text-decoration-thickness: auto;
+    text-decoration: underline red double;
     letter-spacing: 3px;
     text-shadow: 2px 2px 5px red;
   }
@@ -24,8 +22,7 @@
   h2 {
     color: white;
     text-align: left;
-    text-decoration-line: line-through;
-    text-decoration-style: double;
+    text-decoration: line-through red double;
     letter-spacing: -3px;
     word-spacing: -5px;
   }
@@ -33,10 +30,7 @@
   h3 {
     color: green;
     text-align: right;
-    text-decoration-line: underline;
-    text-decoration-color: green;
-    text-decoration-style: dotted;
-    text-decoration-thickness: 25%;
+    text-decoration: underline green dotted 25%;
   }
 
   div {
@@ -58,8 +52,7 @@
   p {
     direction: rtl;
     unicode-bidi: bidi-override;
-    text-decoration-line: overline underline;
-    text-decoration-color: purple;
+    text-decoration: underline purple double 5px;
     text-indent: 50px;
     line-height: 1.8;
     white-space: nowrap;
@@ -99,10 +92,6 @@
 
   p.capitalize {
     text-transform: capitalize;
-  }
-
-  h1, h2, h3, p {
-    text-decoration: underline red double 5px;
   }
 
   p.small {
